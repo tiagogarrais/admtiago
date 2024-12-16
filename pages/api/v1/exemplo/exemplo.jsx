@@ -2,7 +2,7 @@ import connect from "../../../../src/utils/mongodb";
 import { getServerSession } from "next-auth/next";
 import { authOptions } from "../../auth/[...nextauth]";
 
-export default async function dadosCorporais(req, res) {
+export default async function exemplo(req, res) {
   const session = await getServerSession(req, res, authOptions);
 
   if (session) {
@@ -18,15 +18,15 @@ export default async function dadosCorporais(req, res) {
           break;
 
         case "POST":
-          res.status(200).json("Em desenvolvimento");
+          res.status(200).json("Nenhuma funcionalidade para este método");
           break;
 
         case "DELETE":
-          res.status(200).json("Em desenvolvimento");
+          res.status(200).json("Nenhuma funcionalidade para este método");
           break;
 
         case "PATCH":
-          res.status(200).json("Em desenvolvimento");
+          res.status(200).json("Nenhuma funcionalidade para este método");
           break;
 
         default:
@@ -38,7 +38,7 @@ export default async function dadosCorporais(req, res) {
     }
   } else {
     res.send({
-      error: "Você precisa estar logado para acessar esta página.",
+      error: "Este é um serviço privativo para usuários logados.",
     });
   }
 }
