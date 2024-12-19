@@ -18,12 +18,8 @@ export default function Transportes() {
   if (session) {
     return (
       <div className="container my-12 mx-auto px-4 md:px-12">
-        <h1>Transportes do Instituto de Formação de Educadores</h1>
-        <div className="button">
-          <Link href="/transportes/informacoes">
-            Informações sobre o serviço de Transportes
-          </Link>
-        </div>
+        <h1>Sistema de Transportes</h1>
+        <div className="button"></div>
         <div className="button">
           <Link href="/transportes/solicita">Solicitar viagem</Link>
         </div>
