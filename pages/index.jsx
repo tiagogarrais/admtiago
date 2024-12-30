@@ -31,7 +31,7 @@ export default function Home() {
             href="https://www.conexaofuturo.com.br/mod/hvp/embed.php?id=63"
             target="_blank"
           >
-            Conhecendo os sólidos geométricos 1
+            Jogo de arrastar e soltar para conhecer três sólidos geométricos
           </a>
         </div>
 
@@ -40,7 +40,8 @@ export default function Home() {
             href="https://www.conexaofuturo.com.br/mod/hvp/embed.php?id=64"
             target="_blank"
           >
-            Conhecendo os sólidos geométricos 2
+            Jogo de arrastar e soltar para conhecer mais três sólidos
+            geométricos
           </a>
         </div>
 
@@ -49,7 +50,7 @@ export default function Home() {
             href="https://www.conexaofuturo.com.br/mod/hvp/view.php?id=57"
             target="_blank"
           >
-            Curiosidades sobre a floresta amazônica
+            Três perguntas curiosas sobre a floresta amazônica
           </a>
         </div>
 
@@ -58,7 +59,8 @@ export default function Home() {
             href="https://www.conexaofuturo.com.br/mod/hvp/view.php?id=58"
             target="_blank"
           >
-            Animais da Amazônia
+            Cartões interativos com o tema Animais da Amazônia (nome,
+            curiosidade e som)
           </a>
         </div>
 
@@ -67,7 +69,7 @@ export default function Home() {
             href="https://www.conexaofuturo.com.br/mod/hvp/view.php?id=59"
             target="_blank"
           >
-            Jogo da memória - Tema: Araucárias
+            Jogo da memória com o tema Araucárias
           </a>
         </div>
 
@@ -85,7 +87,7 @@ export default function Home() {
             href="https://www.conexaofuturo.com.br/mod/hvp/view.php?id=61"
             target="_blank"
           >
-            Consciência Negra
+            Linha do tempo com o tema consciência negra
           </a>
         </div>
       </div>
