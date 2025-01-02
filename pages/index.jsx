@@ -8,10 +8,6 @@ export default function Home() {
     <div>
       {session ? sessionStorage.setItem("email", session.user.email) : ""}
       <div>
-        <div className="button">
-          <Link href="/cadastro/cadastro">Meu cadastro</Link>
-        </div>
-
         <h2>Biblioteca de objetos digitais</h2>
 
         <a
