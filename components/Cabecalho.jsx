@@ -1,9 +1,6 @@
 import Link from "next/dist/client/link";
-import { useSession } from "next-auth/react";
 
 export default function Cabecalho() {
-  const { data: session } = useSession();
-
   return (
     <div>
       <Link href={"/"}>

@@ -1,6 +1,5 @@
 import Cabecalho from "../components/Cabecalho";
 import Rodape from "../components/Rodape";
-import { SessionProvider } from "next-auth/react";
 import NextNProgress from "nextjs-progressbar";
 import "../styles/globals.css";
 import Head from "next/head";
@@ -20,19 +19,17 @@ export default function MyApp({
           lang="pt-BR"
         />
       </Head>
-      <SessionProvider session={session}>
-        <Cabecalho />
-        <hr />
-        <NextNProgress
-          color="#29D"
-          startPosition={0.3}
-          stopDelayMs={200}
-          height={5}
-          showOnShallow={true}
-        />
-        <Component {...pageProps} />
-        <Rodape />
-      </SessionProvider>
+      <Cabecalho />
+      <hr />
+      <NextNProgress
+        color="#29D"
+        startPosition={0.3}
+        stopDelayMs={200}
+        height={5}
+        showOnShallow={true}
+      />
+      <Component {...pageProps} />
+      <Rodape />
     </>
   );
 }
