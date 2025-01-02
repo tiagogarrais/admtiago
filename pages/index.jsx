@@ -1,12 +1,6 @@
-import { useSession } from "next-auth/react";
-import Link from "next/link";
-
 export default function Home() {
-  const { data: session } = useSession();
-
   return (
     <div>
-      {session ? sessionStorage.setItem("email", session.user.email) : ""}
       <div>
         <h2>Biblioteca de objetos digitais</h2>
 
