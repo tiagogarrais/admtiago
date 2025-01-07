@@ -4,24 +4,12 @@ export default function Home() {
       <div>
         <h2>Biblioteca de objetos digitais</h2>
 
-        <a
-          onClick={() =>
-            window.open(
-              "https://www.conexaofuturo.com.br/mod/hvp/embed.php?id=96",
-              "_blank",
-              "width=800,height=1600,scrollbars=yes"
-            )
-          }
-        >
-          <div className="button">Venha para o IFCE!</div>
-        </a>
-
         <div className="button">
           <a
             href="https://www.conexaofuturo.com.br/mod/hvp/embed.php?id=63"
             target="_blank"
           >
-            Jogo de arrastar e soltar para conhecer três sólidos geométricos
+            Jogo de arrastar e soltar para conhecer sólidos geométricos
           </a>
         </div>
 
@@ -30,8 +18,7 @@ export default function Home() {
             href="https://www.conexaofuturo.com.br/mod/hvp/embed.php?id=64"
             target="_blank"
           >
-            Jogo de arrastar e soltar para conhecer mais três sólidos
-            geométricos
+            Jogo de arrastar e soltar para conhecer mais sólidos geométricos
           </a>
         </div>
 

@@ -1,3 +1,4 @@
+import LoginBtn from "../components/Login-btn";
 import Cabecalho from "../components/Cabecalho";
 import Rodape from "../components/Rodape";
 import NextNProgress from "nextjs-progressbar";
@@ -22,6 +23,8 @@ export default function MyApp({
           />
         </Head>
         <Cabecalho />
+        <LoginBtn />
+
         <hr />
         <NextNProgress
           color="#29D"
