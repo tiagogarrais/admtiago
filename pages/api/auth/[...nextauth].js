@@ -13,7 +13,8 @@ const pool = new Pool({
 });
 
 export const authOptions = {
-  adapter: PostgresAdapter(pool), // Configuração do adaptador
+  adapter: PostgresAdapter(pool),
+  schema: "schema_authjs",
 
   providers: [
     GoogleProvider({

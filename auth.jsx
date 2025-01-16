@@ -10,6 +10,7 @@ const pool = new Pool({
   max: 20,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 2000,
+  options: "--search_path=schema_authjs", // Define o esquema padrão para consultas
 });
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
