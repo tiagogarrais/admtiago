@@ -10,11 +10,18 @@ const pool = new Pool({
   database: process.env.POSTGRES_DB,
   password: process.env.POSTGRES_PASSWORD,
   port: process.env.POSTGRES_PORT,
+  idleTimeoutMillis: 3000,
+  connectionTimeoutMillis: 2000,
+  options: "--search_path=schema_authjs",
 });
 
+pool.query("SET search_path TO schema_authjs, public;");
+
 export const authOptions = {
-  adapter: PostgresAdapter(pool),
-  schema: "schema_authjs",
+  debug: true,
+  adapter: PostgresAdapter(pool, {
+    schema: "schema_authjs",
+  }),
 
   providers: [
     GoogleProvider({
