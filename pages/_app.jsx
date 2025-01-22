@@ -16,7 +16,7 @@ export default function MyApp({
         <Head>
           <title>admtiago.com.br</title>
           <meta
-            name="Site de serviços do Adm. Tiago das Graças Arrais CRA 11660"
+            name="Sistemas desenvolvidos pelo Adm. Tiago das Graças Arrais CRA 11660"
             content="Serviços digitais"
             charset="utf-8"
             lang="pt-BR"
@@ -24,8 +24,6 @@ export default function MyApp({
         </Head>
         <Cabecalho />
         <LoginBtn />
-
-        <hr />
         <NextNProgress
           color="#29D"
           startPosition={0.3}

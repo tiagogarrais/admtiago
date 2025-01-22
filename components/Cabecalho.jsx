@@ -6,10 +6,8 @@ export default function Cabecalho() {
       <Link href={"/"}>
         <h1 id="titulo">www.admtiago.com.br</h1>
       </Link>
-      <div>
-        <p>Respeito - Responsabilidade - Inovação - Transparência</p>
-        <hl></hl>
-      </div>
+      Respeito - Responsabilidade - Inovação - Transparência
+      =============================================================
     </div>
   );
 }

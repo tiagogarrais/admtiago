@@ -5,14 +5,16 @@ export default function LoginBtn() {
   if (session) {
     return (
       <>
-        Logado no e-mail: {session.user.email} <br />
-        <button onClick={() => signOut()}>Sair</button>
+        Bem vindo(a) {session.user.email} <br />
+        <div className="center">
+          <button onClick={() => signOut()}>Sair</button>
+        </div>
       </>
     );
   }
   return (
-    <>
+    <div className="center">
       <button onClick={() => signIn()}>Entrar</button>
-    </>
+    </div>
   );
 }

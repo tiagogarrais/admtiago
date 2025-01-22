@@ -24,25 +24,6 @@ article {
   @apply bg-yellow-300;
 }
 
-.button {
-  @apply hover:bg-blue-900
-  hover:text-white
-  border-gray-400
-  bg-blue-100
-  border-none
-  pl-3
-  pr-3
-  pb-4
-  pt-4
-  m-3
-  border-solid
-  border-2
-  h-fit
-  flex
-  justify-center
-  flex-col;
-}
-
 #duas-colunas {
   @apply columns-2 p-4;
 }
