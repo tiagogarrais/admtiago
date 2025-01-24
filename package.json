@@ -11,14 +11,10 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "@auth/pg-adapter": "^1.7.4",
-    "csvtojson": "^2.0.10",
     "next": "^15.1.5",
     "next-auth": "^4.24.7",
-    "next-qrcode": "^2.5.1",
     "nextjs-progressbar": "^0.0.16",
     "nodemailer": "^6.9.3",
-    "pg": "^8.13.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
