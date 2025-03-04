@@ -1,5 +1,5 @@
-function somar(num1, num2) {
-  return num1 + num2;
+function somar(...numeros) {
+  return numeros.reduce((acumulador, atual) => acumulador + atual, 0);
 }
 
 function subtrair(num1, num2) {
