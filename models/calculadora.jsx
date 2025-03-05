@@ -1,4 +1,8 @@
 function somar(...numeros) {
+  if (!numeros.every((num) => typeof num === "number")) {
+    throw new Error("Todos os valores devem ser números.");
+  }
+
   return numeros.reduce((acumulador, atual) => acumulador + atual, 0);
 }
 
