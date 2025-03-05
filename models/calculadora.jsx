@@ -7,16 +7,30 @@ function somar(...numeros) {
 }
 
 function subtrair(...numeros) {
+  if (!numeros.every((num) => typeof num === "number")) {
+    throw new Error("Todos os valores devem ser números.");
+  }
+
   return numeros
     .slice(1)
     .reduce((acumulador, atual) => acumulador - atual, numeros[0]);
 }
 
-function dividir(num1, num2) {
-  return num1 / num2;
+function dividir(...numeros) {
+  if (!numeros.every((num) => typeof num === "number")) {
+    throw new Error("Todos os valores devem ser números.");
+  }
+
+  return numeros
+    .slice(1)
+    .reduce((acumulador, atual) => acumulador / atual, numeros[0]);
 }
 
 function multiplicar(...numeros) {
+  if (!numeros.every((num) => typeof num === "number")) {
+    throw new Error("Todos os valores devem ser números.");
+  }
+
   return numeros.reduce((acumulador, atual) => acumulador * atual, 1);
 }
 
