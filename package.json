@@ -17,10 +17,13 @@
     "migrations:up": "node-pg-migrate -m infra/migrations --envPath .env.development up"
   },
   "dependencies": {
+    "dotenv": "^16.4.4",
     "next": "^15.1.5",
     "next-auth": "^4.24.7",
     "nextjs-progressbar": "^0.0.16",
+    "node-pg-migrate": "^6.2.2",
     "nodemailer": "^6.9.3",
+    "pg": "^8.11.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
