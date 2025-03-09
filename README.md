@@ -14,15 +14,15 @@ Tecnologias utilizadas até o momento:
 Etapas de desenvolvimento já concluídas:
 
 - [x] Instalação inicial básica;
-- [x] Criação de áreas públicas e áreas que podem ser acessadas com login;
+- [ ] Criação de áreas públicas e áreas que podem ser acessadas com login;
 - [x] Criação de componentes (cabeçalho e rodapé) que se repetem em todas as páginas;
-- [x] Conexão ao banco de dados para buscar e gravar informações;
+- [ ] Conexão ao banco de dados para buscar e gravar informações;
 - [ ] (desativado) Adição de login com autenticação do Google para ter acesso ao conteúdo do site;
-- [x] Adição de login utilizando o e-mail para ter acesso ao conteúdo do site;
+- [ ] Adição de login utilizando o e-mail para ter acesso ao conteúdo do site;
 
 Etapa em desenvolvimento:
 
-- [x] Trocar o banco de dados para MariaDB.
+- [ ] Trocar o banco de dados para MariaDB.
 
 Links de conteúdos que foram úteis na construção deste site:
 
