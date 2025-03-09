@@ -3,26 +3,21 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npm run services:up && npm run services:wait:database && npm run migrations:up && next dev",
+    "dev": "npm run services:up && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
-    "test:watch": "jest --watch",
+    "test:watch": "jest --watchAll",
     "services:up": "docker compose -f infra/compose.yaml up -d",
     "services:stop": "docker compose -f infra/compose.yaml stop",
-    "services:down": "docker compose -f infra/compose.yaml down",
-    "services:wait:database": "node infra/scripts/wait-for-postgres.js",
-    "migrations:create": "node-pg-migrate -m infra/migrations create",
-    "migrations:up": "node-pg-migrate -m infra/migrations --envPath .env.development up"
+    "services:down": "docker compose -f infra/compose.yaml down"
   },
   "dependencies": {
     "dotenv": "^16.4.4",
     "next": "^15.1.5",
-    "next-auth": "^4.24.7",
     "nextjs-progressbar": "^0.0.16",
     "node-pg-migrate": "^6.2.2",
-    "nodemailer": "^6.9.3",
     "pg": "^8.11.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
